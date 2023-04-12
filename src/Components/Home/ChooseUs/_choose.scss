@@ -1,0 +1,31 @@
+.choose-us{
+    margin-top: 9rem;
+    .choose-single{
+        margin-top: 2.5rem;
+        &:hover .choose-img{
+            box-shadow: none;
+        }
+        .choose-img{
+            display: inline-block;
+            box-shadow: var(--box-shadow);
+            width: 7rem;
+            height: 7rem;
+            padding: 1rem;
+            line-height: 4rem;
+            margin-bottom: 1rem;
+            border-radius: 50%;
+            transition: 0.5s;
+            img{
+                width: 4rem;
+                .icon{
+                    font-size: 3rem;
+                }
+            }
+        }
+        h5{
+            margin-top: 0.5rem;
+            text-transform: capitalize;
+            color: var(--text-color);
+        }
+    }
+}

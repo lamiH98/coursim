@@ -1,0 +1,53 @@
+.instructors{
+    margin-top: 8rem;
+    .instructors-title-section{
+        .title{
+            color: var(--heading-text-color);
+            font-weight: bold;
+        }
+        p{
+            font-size: 0.9rem;
+            color: var(--text-color);
+        }
+    }
+    .instructors-single{
+        margin-top: 2rem;
+        .instructors-img{
+            img{
+                width: 100%;
+                border-radius: 0.4rem;
+            }
+        }
+        .name{
+            color: var(--main-color);
+            font-weight: 500;
+            margin-top: 1rem;
+            font-size: 1.1rem;
+            margin-bottom: 0.2rem;
+            .rate{
+                color: #ff9b20;
+                font-size: 0.9rem;
+                .icon{
+                    font-size: 1.1rem;
+                    margin-right: 0.2rem;
+                }
+            }
+        }
+        .job{
+            font-size: 0.85rem;
+            color: var(--heading-text-color);
+        }
+        .info{
+            .rate, .students, .courses{
+                margin-top: 0.6rem;
+                margin-right: 1.5rem;
+                font-size: 0.9rem;
+                color: var(--heading-text-color);
+                .icon{
+                    margin-right: 0.3rem;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+}

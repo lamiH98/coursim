@@ -1,0 +1,30 @@
+.become-instructor{
+    .nav-tabs{
+        border-bottom: none;
+    }
+    .tabs{
+        li{
+            button{
+                color: var(--heading-text-color);
+                font-size: 0.9rem;
+                outline: none !important;
+                border: none;
+                &.active{
+                    border-bottom: 3px solid var(--main-color);
+                }
+            }
+        }
+    }
+    .tab-content{
+        p{
+            font-size: 0.9rem;
+            color: var(--text-color);
+            line-height: 1.7;
+            margin-top: 1rem;
+        }
+    }
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    border: none;
+}

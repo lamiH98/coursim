@@ -1,0 +1,45 @@
+.comments{
+    margin-top: 4rem;
+    .comment-title{
+        color: var(--heading-text-color);
+        margin-bottom: 1.5rem;
+    }
+    .comment-content{
+        .comment-single{
+            margin-top: 3rem;
+            .comment-avatar{
+                img{
+                    width: 4rem;
+                    border-radius: 50%;
+                }
+            }
+            .comment-info{
+                margin-left: 1.5rem;
+                .comment-top{
+                    .name{
+                        color: var(--heading-text-color);
+                        margin-right: 0.5rem;
+                    }
+                    .date{
+                        color: var(--text-color);
+                        font-size: 0.8rem;
+                    }
+                }
+                .comment-details{
+                    color: var(--text-color);
+                    font-size: 0.9rem;
+                    line-height: 1.8;
+                }
+                .replay{
+                    color: var(--main-color);
+                    font-weight: bold;
+                    cursor: pointer;
+                    span{
+                        margin-left: 0.4rem;
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
+    }
+}

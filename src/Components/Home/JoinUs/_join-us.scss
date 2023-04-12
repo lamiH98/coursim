@@ -1,0 +1,36 @@
+.join-us{
+    margin-top: 9rem;
+    .student{
+        background-image: url(../../../assets/images/joinUs/join-us-2.jpg);
+    }
+    .techer{
+        background-image: url(../../../assets/images/joinUs/join-us-1.jpg);
+    }
+    .join-single{
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+        padding-top: 4rem;
+        padding-left: 3.2rem;
+        margin-top: 2rem;
+        .join-subtitle{
+            color: var(--main-color);
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .join-title{
+            width: 70%;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+            text-transform: capitalize;
+            font-weight: bold;
+            @media (max-width: 1200px) {
+                width: 100%;
+            }
+        }
+        a{
+            letter-spacing: 2px;
+        }
+    }
+}

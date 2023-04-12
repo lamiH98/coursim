@@ -1,0 +1,15 @@
+.trustedBy{
+    margin-top: 9rem;
+    // background-color: red;
+    img {
+        filter: grayscale(100%);
+        opacity: 0.4;
+        cursor: pointer;
+        width: 6rem;
+        transition: 0.8s;
+        &:hover{
+            filter: grayscale(0);
+            opacity: 1;
+        }
+    }
+}

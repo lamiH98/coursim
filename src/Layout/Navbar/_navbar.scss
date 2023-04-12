@@ -1,0 +1,96 @@
+.navbar{
+    position: absolute !important;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 999;
+    min-height: 5rem;
+    background-color: transparent;
+    .navbar-brand{
+        color: var(--text-color);
+        font-weight: 500;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding-left: 1.2rem;
+        img{
+            width: 2.6rem;
+            margin-right: 0.8rem;
+        }
+    }
+    .navbar-collapse{
+        margin-top: 0.4rem;
+        padding-left: 1.2rem;
+        @media (max-width: 991px) {
+            background: #060652;
+        }
+        .nav-link{
+            @media (max-width: 991px) {
+                margin-top: 0.5rem;
+                color: #fff !important;
+            }
+        }
+    }
+    .navbar-nav{
+        margin-left: 1.1rem;
+        margin-top: 0.7rem;
+        .nav-link{
+            color: var(--text-color);
+            font-size: 0.9rem;
+            text-transform: capitalize;
+            margin-right: 0.8rem;
+            transition: all .5s ease;
+            &:hover{
+                color: #6440FB;
+                background-color: rgba(255, 255, 255, 0.15);
+                border-radius: 0.4rem;
+                @media (max-width: 991px) {
+                    padding-left: 1rem;
+                }
+            }
+        }
+        .active{
+            color: #6440FB;
+            background-color: rgba(255, 255, 255, 0.15);
+            border-radius: 0.4rem;
+            padding-left: 1rem;
+            display: inline-block;
+        }
+    }
+    .social-icons{
+        margin-top: 2rem;
+        li{
+            margin-right: 1rem;
+            font-size: 1.1rem;
+            color: var(--text-color);
+        }
+        .search{
+            font-size: 1.3rem;
+            cursor: pointer;
+        }
+    }
+}
+
+.navbar-bg{
+    background: #060652;
+    box-shadow: 0px 0.6rem 2.4rem rgba(0, 0, 0, 0.05);
+    padding: 0;
+    position: fixed !important;
+    top: -6.2rem;
+    left: 0;
+    width: 100%;
+    max-height: 6rem;
+    border-bottom: 1px solid #333853;
+    transform: translateY(6.2rem);
+    .nav-link{
+        color: #fff !important;
+        &:hover{
+            color: #6440FB !important;
+        }
+    }
+    transition: transform .5s ease;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: start;
+}

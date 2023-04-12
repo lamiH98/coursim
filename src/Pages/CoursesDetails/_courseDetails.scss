@@ -1,0 +1,111 @@
+.course-details{
+    .course-details-content{
+        margin-top: 3rem;
+        .course-details-left{
+            .category{
+                background-color: var(--main-color);
+                display: inline-block;
+                border-radius: 1rem;
+                padding: 0.2rem 1rem;
+                font-size: 0.8rem;
+                color: #fff;
+                text-transform: uppercase;
+            }
+            .course-title{
+                color: var(--heading-text-color);
+                margin-top: 1.2rem;
+                font-weight: bold;
+            }
+            p{
+                margin-top: 1rem;
+                color: var(--text-color);
+            }
+            .course-info{
+                margin-top: 1.5rem;
+                color: var(--text-color);
+                .rating{
+                    font-size: 0.8rem;
+                    .review{
+                        margin-right: 0.4rem;
+                        color: #ffbc0b;
+                        font-weight: bold;
+                    }
+                    .rating-star{
+                        position: relative;
+                        bottom: 0.2rem;
+                    }
+                    .review-count{
+                        margin-left: 0.4rem;
+                    }
+                }
+                span{
+                    font-size: 0.9rem;
+                }
+                .icon{
+                    font-size: 1.3rem;
+                    margin-right: 0.8rem;
+                }
+                
+            }
+            .techer-info{
+                margin-top: 1.2rem;
+                .techer-img{
+                    img{
+                        border-radius: 50%;
+                        width: 2.2rem;
+                        margin-right: 1rem;
+                    }
+                }
+                .techer-name{
+                    font-size: 0.8rem;
+                    color: var(--text-color);
+                }
+            }
+            .section-title{
+                position: sticky;
+                top: 5rem;
+                background-color: #fff;
+                margin-top: 2rem;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                border-bottom: 1px solid #cfcccc;
+                font-weight: 500;
+                z-index: 9;
+                a{
+                    margin-right: 1.4rem;
+                    font-size: 0.9rem;
+                    color: var(--text-color);
+                    cursor: pointer;
+                    transition: 0.5s;
+                    position: relative;
+                    height: 100%;
+                    &:before{
+                        content: '';
+                        position: absolute;
+                        bottom: -1.2rem;
+                        height: 2px;
+                        background-color: var(--main-color);
+                    }
+                    &:hover{
+                        color: var(--main-color);
+                    }
+                    &:hover::before{
+                        width: 100%;
+                    }
+                }
+                .active{
+                    color: var(--main-color);
+                    &:before{
+                        content: '';
+                        position: absolute;
+                        bottom: -1.2rem;
+                        height: 2px;
+                        width: 100%;
+                        background-color: var(--main-color);
+                        transition: all 0.3s ease-in-out 0s;
+                    }
+                }
+            }
+        }
+    }
+}

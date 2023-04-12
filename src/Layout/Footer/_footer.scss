@@ -1,0 +1,49 @@
+footer{
+    margin-top: 9rem;
+    padding-bottom: 4rem;
+    .logo-section{
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        .logo-img{
+            width: 2.5rem;
+        }
+        a{
+            margin-left: 0.7rem;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+    }
+    .call-us{
+        font-size: 1.2rem;
+        color: var(--text-color);
+        margin-bottom: 1rem;
+        font-weight: 500;
+    }
+    .number{
+        color: var(--main-color);
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .footer-info{
+        margin-top: 1.5rem;
+        li{
+            margin-top: 0.7rem;
+            color: #4f67a5;
+        }
+    }
+    .footer-menu{
+        margin-top: 1rem;
+        .menu-title{
+            color: var(--text-color);
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+        }
+        .menu-items{
+            li{
+                text-transform: capitalize;
+                color: #4f67a5;
+                margin-top: 0.8rem;
+            }
+        }
+    }
+}

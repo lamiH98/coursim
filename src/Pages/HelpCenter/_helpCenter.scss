@@ -1,0 +1,89 @@
+.help-center{
+    .help-center-title{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        .title{
+            color: var(--heading-text-color);
+            font-weight: bold;
+        }
+        p{
+            color: var(--text-color);
+        }
+    }
+    .help-center-single{
+        margin-top: 2rem;
+        background-color: #F7F8FB;
+        padding: 2rem 2rem;
+        .help-img{
+            background-color: #fff;
+            display: inline-block;
+            width: 5rem;
+            height: 4rem;
+            line-height: 5rem;
+            border-radius: 5rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            img{
+                margin-bottom: 1rem;
+            }
+        }
+        .help-title{
+            color: var(--heading-text-color);
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        p{
+            font-size: 0.9rem;
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+    }
+    .asked-questions{
+        margin-top: 4rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        text-align: center;
+        background-color: #F7F8FB;
+        .title{
+            color: var(--heading-text-color);
+            font-weight: bold;
+        }
+        p{
+            color: var(--text-color);
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+        .accordion-item{
+            background-color: transparent;
+            margin-top: 2rem;
+            background-color: #fff;
+            border: 1px solid #eee;
+            .accordion-button{
+                font-size: 1rem;
+                background-color: transparent;
+                color: var(--heading-text-color);
+                font-weight: 500;
+                box-shadow: none;
+                &::after{
+                    left: 0;
+                    background-image: url(../../assets/images/HelpCenter/plus.png);
+                }
+            }
+            .accordion-body{
+                font-size: 0.9rem;
+                text-align: left;
+                color: var(--text-color);
+            }
+        }
+    }
+}
+
+.accordion-item .accordion-collapse{
+    transition: 0.5s;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url(../../assets/images/HelpCenter/minus.png) !important;
+    transform: none;
+}

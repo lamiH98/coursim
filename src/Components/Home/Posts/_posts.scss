@@ -1,0 +1,41 @@
+.posts{
+    margin-top: 9rem;
+}
+.post-single{
+    margin-top: 2rem;
+    .post-img{
+        img{
+            width: 100%;
+            height: 18rem;
+            border-radius: 0.4rem;
+            object-fit: cover;
+        }
+    }
+    .post-content{
+        .category{
+            color: var(--main-color);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            margin-top: 1rem;
+            margin-bottom: 0.6rem;
+            font-weight: bold;
+        }
+        .post-title{
+            color: var(--heading-text-color);
+            cursor: pointer;
+            transition: all 0.5s;
+            &:hover{
+                color: var(--main-color);
+            }
+        }
+        .post-time{
+            transition: 0.5s;
+            cursor: pointer;
+            color: var(--text-color) !important;
+            font-size: 0.9rem;
+            &:hover{
+                color: var(--main-color) !important;
+            }
+        }
+    }
+}

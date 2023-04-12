@@ -1,0 +1,24 @@
+.feedback{
+    margin-top: 4rem;
+    .feedback-title{
+        margin-bottom: 2rem;
+        color: var(--heading-text-color);
+    }
+    .feedback-content{
+        .average-rating{
+            background-color: #F5F7FE;
+            padding: 3rem;
+            width: 30%;
+            text-align: center;
+            .average-number{
+                font-size: 3rem;
+                font-weight: 600;
+                color: var(--main-color);
+            }
+            .count-number{
+                font-size: 0.9rem;
+                margin-top: 0.6rem;
+            }
+        }
+    }
+}

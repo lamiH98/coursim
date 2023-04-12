@@ -1,0 +1,54 @@
+.skills{
+    margin-top: 9rem;
+    .skill-img{
+        position: relative;
+        @media (max-width: 991px) {
+            margin-top: 3rem;
+        }
+        img{
+            width: 100%;
+            border-radius: 0.7rem;
+        }
+        .checklist{
+            position: absolute;
+            top: 8rem;
+            left: -6rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            background-color: #282664;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: var(--box-shadow);
+            @media (max-width: 991px) {
+                left: 0;
+            }
+            li{
+                margin-top: 1rem;
+                color: #fff;
+                .icon{
+                    margin-right: 0.8rem;
+                    color: #fff;
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+    .skill-content{
+        margin-left: 2rem;
+        .skill-title{
+            width: 80%;
+            font-weight: bold;
+            color: var(--heading-text-color);
+            font-size: 2.8rem;
+            span{
+                color: var(--main-color);
+            }
+        }
+        p{
+            margin-top: 1.8rem;
+            margin-bottom: 2rem;
+            width: 70%;
+            line-height: 1.7;
+        }
+    }
+}

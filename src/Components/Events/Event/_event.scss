@@ -1,0 +1,43 @@
+.event-single{
+    margin-top: 1.5rem;
+    border: 1px solid #ebebeb;
+    padding-bottom: 1rem;
+    box-shadow: var(--box-shadow);
+    transition: 0.5s;
+    &:hover{
+        box-shadow: none;
+    }
+    .event-img{
+        img{
+            width: 100%;
+            border-top-right-radius: 0.6rem;
+            border-top-left-radius: 0.6rem;
+        }
+    }
+    .event-content{
+        padding: 0.8rem;
+        .date{
+            margin-top: 0.7rem;
+            margin-bottom: 0.8rem;
+            color: var(--text-color);
+            font-size: 0.9rem;
+            .icon{
+                margin-right: 0.5rem;
+                font-size: 1.1rem;
+            }
+        }
+        .event-title{
+            color: var(--heading-text-color);
+            text-transform: capitalize;
+            font-weight: 600;
+            line-height: 1.6;
+        }
+        .location{
+            font-size: 0.9rem;
+            color: var(--text-color);
+            .icon{
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

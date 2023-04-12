@@ -1,0 +1,24 @@
+.instructor-features{
+    margin-top: 6rem;
+    .instructor-features-single{
+        text-align: center;
+        box-shadow: var(--box-shadow);
+        padding: 3rem 0;
+        transition: 0.5s;
+        &:hover{
+            box-shadow: none;
+        }
+        .title{
+            color: var(--heading-text-color);
+            margin-top: 1.4rem;
+            margin-bottom: 0.8rem;
+            font-weight: 600;
+        }
+        p{
+            font-size: 0.9rem;
+            color: var(--text-color);
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+}

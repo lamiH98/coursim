@@ -1,0 +1,28 @@
+.course-overview{
+    margin-top: 1.5rem;
+    padding-top: 2rem;
+    .title{
+        color: var(--heading-text-color);
+    }
+    p{
+        color: var(--text-color);
+        font-size: 0.9rem;
+    }
+    .learn, .requirements{
+        margin-top: 2rem;
+        .title{
+            margin-bottom: 1.8rem;
+        }
+        .item-single{
+            margin-bottom: 1.4rem;
+            .icon{
+                color: var(--text-color);
+                margin-right: 0.5rem;
+            }
+            span{
+                font-size: 0.9rem;
+                color: var(--text-color);
+            }
+        }
+    }
+}

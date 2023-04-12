@@ -1,0 +1,16 @@
+.countdownTimer{
+    margin-top: 2rem;
+    .countdown{
+        .count{
+            margin-right: 4rem;
+            text-align: center;
+            .number{
+                font-size: 3rem;
+                font-weight: bold;
+            }
+            .title{
+                font-size: 0.9rem;
+            }
+        }
+    }
+}

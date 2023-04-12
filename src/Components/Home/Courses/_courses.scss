@@ -1,0 +1,16 @@
+.home-courses{
+    margin-top: 9rem;
+    .courses-title-section{
+        .title{
+            color: var(--heading-text-color);
+            font-weight: bold;
+        }
+        .text-muted{
+            font-size: 1rem;
+            color: #4f67a5 !important;
+        }
+    }
+    .all-courses{
+        margin-top: 3rem;
+    }
+}

@@ -1,0 +1,17 @@
+.custom-button{
+    button{
+        background-color: var(--heading-text-color);
+        display: inline-block;
+        padding: 0.9rem 3.7rem;
+        border-radius: 2rem;
+        font-weight: 500;
+        text-align: center;
+        color: #fff;
+        border: 1px solid var(--heading-text-color);
+        transition: 0.5s;
+        &:hover{
+            background-color: #fff;
+            color: var(--heading-text-color);
+        }
+    }
+}

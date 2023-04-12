@@ -1,0 +1,30 @@
+.counter{
+    margin-top: 9rem;
+    background-color: var(--main-color);
+    background-image: url(../../../assets/images/counter/counter.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    .counter-single{
+        color: #fff;
+        text-align: center;
+        border-right: 1px solid #999;
+        @media (max-width: 991px) {
+            border: none;
+            margin-bottom: 4rem;
+        }
+        .number{
+            font-size: 3.2rem;
+            font-weight: bold;
+            letter-spacing: -2px;
+        }
+        h4{
+            margin-top: 0.5rem;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+}

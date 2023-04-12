@@ -1,0 +1,87 @@
+.courses-page{
+    .search-bar {
+        border: 1px solid #EDEDED;
+        padding: 0.6rem 1.2rem;
+        margin-top: 2rem;
+        border-radius: 0.4rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        color: #86848c;
+        transition: width 0.6s;
+        input{
+            color: #27282f;
+            background-color: transparent;
+            width: 100%;
+            border: none;
+            box-shadow: none;
+            outline: none;
+            font-size: 0.9rem;
+        }
+    }
+    .course-top-wrapper{
+        margin-top: 2.5rem;
+        .courses-found{
+            font-size: 0.9rem;
+            color: var(--main-color);
+        }
+        .sort-by{
+            h6{
+                color: var(--heading-text-color);
+            }
+            select{
+                background-color: #EEF2F6;
+                border: none;
+                outline: none;
+                padding: 0.6rem 1.2rem;
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+.range-slider{
+    margin-top: 3rem;
+    .range-slider__thumb{
+        width: 1rem !important;
+        height: 1rem !important;
+        background-color: var(--main-color) !important;
+    }
+    .range-slider__range{
+        background-color: var(--main-color) !important;
+    }
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 4rem;
+    li{
+        margin-right: 0.4rem;
+        border-radius: 50%;
+        a{
+            display: inline-block;
+            width: 2.2rem;
+            height: 2.2rem;
+            line-height: 2.2rem;
+            text-align: center;
+            transition: 0.5s;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        &:hover a{
+            background-color: var(--main-color);
+            color: #fff;
+        }
+        &.selected{
+            background-color: var(--main-color);
+            color: #fff;
+        }
+    }
+    .disabled{
+        a{
+            cursor: not-allowed;
+        }
+    }
+}
